@@ -1,9 +1,9 @@
 language: node_js
 node_js: node
-deploy: https://git.heroku.com/powerful-dawn-13704.git
+deploy:
   provider: heroku
   api_key:
     secure: pyBnR91tJU4B1Rx69faXRR1z93P1DgRY7LJUW5Dc1DIuKy4cP90rFoSpJko5jQwgLiU9gSFffJydzh4f8smebNV7jFJ4zskpvUVPlQO1LVoChOYRwXMLJRW/4qu3AYhmjrXl4Tgeh2WU+5pxXbxr9QzV8lW4nDTqj4sPOHD8Z93KLk3OK0Z+6c2WYRtDNI8/JTz0zt64L2tOdEGMBgssiQ4BtBdn87UJ5t7kEYBjw7szA9evDVVFoDLEb4RtY+ZynSCot2lJmVOGPoVoHV3jvzBfzKgxivfXXklTvxvzwF6aDA0W1b+MLW+n/zBZTtA5pXyxIueQ5fRjNPo3OLEerpRZM1ZlMAXnoyQAcSn4iGupxFoOG9kSNBKXPdbfdHmQGG2C6Bt5k+y2bD8PjTK+VLNS4ZmGY/PWPp2b6ZLlh7pzyoU7VuftsiIDaHS6rl1j/iHIFAwHlcvq+Xr8YscJoow6iuKnzVqDXyR5SZquzsJ+zafnw2E5U9MXXCl4xAoBFDgtTCUZuBWJtlAsf7fGBOy6npu9oGcu8j4eL+moaSJmbY6GLiG1ue/PHjQKY1RMQBP+udQw+dYuiyX4HPl7eUi258R+8XofxgfbYpGZQCKsM7TOa+MLinuze4ecWn1+pnlqi/217AVvNEkFmdQ3FOh8KX5GacT6uawzUsor2+A=
-  app: y
+  app: powerful-dawn-13704
   on:
     repo: Muffinman75/node-shopping-list-integration-tests
